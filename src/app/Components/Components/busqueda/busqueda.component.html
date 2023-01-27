@@ -1,0 +1,27 @@
+<h1 class="mx-5">Artista</h1>
+
+  <div class="card-deck">
+    <div class="card-columns ">
+      <div
+        class="card animated fadein fast"
+        *ngFor="let items of mibusqueda;let i=index"
+      >
+        
+               <img class="card-img-top img-fluid" [src]="items.images[1].url" alt=""> 
+  
+               <div class="card-body d-lg-block"> 
+
+                <h4 class="car-title">{{items.name}}</h4>
+              <p class="card-tex">{{items.genres}}</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+              <p class="card-text"><small class="text-muted"></small></p>
+              
+
+                
+
+                
+               <!--  <button class="btn btn-outline-primary btn-block">ver</button> -->
+                </div>
+      </div>
+    </div>
+  </div>

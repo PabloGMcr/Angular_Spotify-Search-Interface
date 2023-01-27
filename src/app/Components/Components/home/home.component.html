@@ -1,0 +1,21 @@
+<div class="card-deck">
+  <div class="card-columns">
+    <div
+      class="card animated fadein fast"
+      *ngFor="let items of ObternerCancion;let i=index"
+    >
+      
+             <img class="card-img-top img-fluid" [src]="items.images[0].url" alt=""> 
+
+             <div class="card-body"> 
+
+              <h4 class="car-title">{{items.name}}</h4>
+              <p class="card-tex">{{items.release_date}}</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+              <p class="card-text"><small class="text-muted"></small></p>
+              
+              <!-- <button class="btn btn-outline-primary btn-block">Ver mas</button>  -->
+              </div>
+    </div>
+  </div>
+</div>
