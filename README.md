@@ -1,5 +1,9 @@
-# Proyec1
+# Angular_Spotify-Search-Interface
 
+
+Este proyecto es una interfaz de búsqueda de música de Spotify construida con Angular. Consume la API de Spotify para obtener información sobre artistas, álbumes y canciones.
+
+--
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server
